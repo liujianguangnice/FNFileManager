@@ -5,8 +5,12 @@
 ```Java
 allprojects {
    repositories {
-   		...
-   	    maven { url 'https://jitpack.io' }
+   		 maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+         maven { url "http://maven.aliyun.com/nexus/content/repositories/jcenter" }
+         maven { url "https://jitpack.io" }
+         google()
+         jcenter()
+         mavenCentral()
    }
 }
 ```
@@ -15,7 +19,7 @@ allprojects {
 
 ```Java
 dependencies {
-   implementation 'com.github.liujianguangnice:filemanagelib:1.0.0'
+   implementation 'com.github.liujianguangnice:FNFileManager:1.0.0'
 }
 ```
 

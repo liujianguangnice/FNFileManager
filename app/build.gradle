@@ -45,5 +45,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.9.0'
 
-    implementation project(':filemanagelib')
+    //implementation project(':filemanagelib')
+    implementation 'com.github.liujianguangnice:FNFileManager:1.0.0'
 }
