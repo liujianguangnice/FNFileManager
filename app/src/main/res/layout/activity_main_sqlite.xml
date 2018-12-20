@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="create database"
+            android:id="@+id/createdatabase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="get databases list"
+            android:id="@+id/getdatabaseslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="rename database"
+            android:id="@+id/renamedatabase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="remove database"
+            android:id="@+id/removedatabase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="create table"
+            android:id="@+id/createtable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="get tables list"
+            android:id="@+id/gettableslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="rename table"
+            android:id="@+id/renametable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="drop table"
+            android:id="@+id/droptable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="add column"
+            android:id="@+id/addtablecolumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="get columns list"
+            android:id="@+id/gettablecolumnslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="insert"
+            android:id="@+id/inserttable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="query"
+            android:id="@+id/querytable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="update"
+            android:id="@+id/updatetable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:text="delete"
+            android:id="@+id/delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="createDatabaseAndTab"
+            android:id="@+id/createDatabaseAndTab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            />
+        <Button android:text="deleteDataBase"
+            android:id="@+id/deleteDataBase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            />
+        <Button android:text="selectOneData"
+            android:id="@+id/selectOneData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            />
+        <Button android:text="selectAllData"
+            android:id="@+id/selectAllData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            />
+    </TableRow>
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:text="insertOneData"
+            android:id="@+id/insertOneData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            />
+        <Button android:text="deleteOneData"
+            android:id="@+id/deleteOneData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            />
+        <Button android:text="deleteAllData"
+            android:id="@+id/deleteAllData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            />
+        <Button android:text="updateOne"
+            android:id="@+id/updateOne"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            />
+        <Button android:text="updateOneName"
+            android:id="@+id/updateOneName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:textAllCaps="false"
+            />
+    </TableRow>
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/showresult"/>
+    </ScrollView>
+</LinearLayout>
